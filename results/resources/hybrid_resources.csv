@@ -1,0 +1,3 @@
+run,sim_duration_s,wall_time_s,cpu_percent,peak_rss_kb,peak_rss_gib,update_period_ms
+Run1,703.0,2815.88,1047.0,8715312,8.311569213867188,500
+Run2,481.0,1539.71,1258.0,8607740,8.208980560302734,500

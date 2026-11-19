@@ -1,0 +1,12 @@
+{
+  "model": "3GPP_TR_38.901_UMi_Street_Canyon",
+  "frequency_ghz": 3.40464,
+  "gnb_latitude": 40.76855,
+  "gnb_longitude": -111.84616,
+  "h_bs_m": 10.0,
+  "h_ut_m": 1.5,
+  "ssb_block_power_dbm_config": 5.0,
+  "tx_reference_power_dbm": 5.0,
+  "tx_gain_dbi": 0.0,
+  "rx_gain_dbi": 0.0
+}

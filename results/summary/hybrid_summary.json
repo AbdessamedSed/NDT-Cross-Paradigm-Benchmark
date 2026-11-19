@@ -1,0 +1,33 @@
+{
+  "model": "Sionna RT + ns-3/5G-LENA",
+  "update_period_ms": 500,
+  "R1_to_R2": {
+    "delta_db": -12.4944820495,
+    "n_test": 943,
+    "mae_db": 10.02875085290615,
+    "rmse_db": 11.929097118618191,
+    "bias_db": 1.3755684819581122,
+    "raw_mae_db": 14.764246050018027,
+    "median_time_error_ms": 0.03571499743770801,
+    "p95_time_error_ms": 0.03571500087673485,
+    "max_time_error_ms": 101.535715
+  },
+  "R2_to_R1": {
+    "delta_db": -12.222445538000002,
+    "n_test": 1378,
+    "mae_db": 8.208431101338897,
+    "rmse_db": 10.433199580390822,
+    "bias_db": 1.2046941436146563,
+    "raw_mae_db": 14.190650709589985,
+    "median_time_error_ms": 0.03571500212729006,
+    "p95_time_error_ms": 0.03571500542420836,
+    "max_time_error_ms": 101.535715
+  },
+  "resources": {
+    "run1_wall_s": 2815.88,
+    "run2_wall_s": 1539.71,
+    "total_wall_s": 4355.59,
+    "mean_cpu_percent": 1152.5,
+    "mean_peak_rss_gib": 8.260274887084961
+  }
+}

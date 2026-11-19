@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Raw datasets
+data/raw/
+data/extracted/
+*.h5
+*.hdf5
+
+# Large simulator outputs
+*.sca
+*.vec
+*.vci
+
+# ML checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# ns-3 / OMNeT build outputs
+build/
+out/
+cmake-cache/
+CMakeCache.txt
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Large raw benchmark traces
+hybrid_sionna_lena_run1_500ms_raw.csv
+hybrid_sionna_lena_run2_500ms_raw.csv
+
+# Generated caches
+.cache/

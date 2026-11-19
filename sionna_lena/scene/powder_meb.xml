@@ -1,0 +1,31 @@
+<scene version="2.1.0">
+
+    <!-- Radio materials -->
+
+    <bsdf type="itu-radio-material" id="building-concrete">
+        <string name="type" value="concrete"/>
+        <float name="thickness" value="0.20"/>
+    </bsdf>
+
+    <bsdf type="itu-radio-material" id="ground-asphalt">
+        <string name="type" value="medium_dry_ground"/>
+        <float name="thickness" value="0.20"/>
+    </bsdf>
+
+    <!-- OSM buildings -->
+
+    <shape type="obj" id="powder-buildings">
+        <string name="filename" value="meshes/powder_buildings.obj"/>
+        <boolean name="face_normals" value="true"/>
+        <ref id="building-concrete" name="bsdf"/>
+    </shape>
+
+    <!-- Ground / parking / roads approximation -->
+
+    <shape type="obj" id="powder-ground">
+        <string name="filename" value="meshes/powder_ground.obj"/>
+        <boolean name="face_normals" value="true"/>
+        <ref id="ground-asphalt" name="bsdf"/>
+    </shape>
+
+</scene>
